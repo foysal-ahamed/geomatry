@@ -98,6 +98,11 @@ a.pri_btn:hover, a.sec_btn:hover {
   width: 80px;
 }
 
-.try {
-  margin: 80px 0;
+.content_element img {
+  margin-bottom: 50px;
+}
+
+
+.content_btn button {
+  margin-top: 100px;
 }

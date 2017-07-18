@@ -148,4 +148,13 @@
   .btn_m {
     margin-top: 35px;
   }
+  .content_area {
+    margin: 345px 0;
+  }
+  .content_title h1 {
+    font-size: 30px;
+  }
+  .content_title h1:after {
+    margin-top: 5px;
+  }
 }
