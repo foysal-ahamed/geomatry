@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   background-color: #fff;
+  overflow-x: hidden;
+  position: relative;
 }
 
 a:focus, input:focus, textarea:focus, button:focus {
@@ -28,13 +34,27 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-.section-padding {
-  margin: 80px 0;
+.section-padding80 {
+  padding: 80px 0;
 }
 
-.service-padding {
+.service-margin50 {
   margin: 50px 0;
 }
+
+
+/*===========================================*/
+
+.ps>.ps__scrollbar-y-rail>.ps__scrollbar-y {
+  background-color: #0e7ff5;
+}
+
+.ps:hover>.ps__scrollbar-y-rail:hover>.ps__scrollbar-y {
+  background-color: #0f82f9;
+}
+
+
+/*============================================*/
 
 .header-bg {
   background-image: url(./assets/img/bg.jpg);
@@ -86,14 +106,228 @@ a.pri_btn {
   margin-top: 20px;
   transition: 0.3s;
 }
+
 a.pri_btn:hover {
   background: #0F81F8;
-  color:#fff;
+  color: #fff;
   text-shadow: none;
 }
+
 .header_area {
   margin-top: 60px;
 }
+
 .logo {
   margin-top: 30px;
+}
+
+.mainmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #ff0000;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.mainmenu li {
+  display: inline-block;
+}
+
+.mainmenu li a {
+  display: block;
+  padding: 30px;
+  font-size: 16px;
+  color: #000;
+}
+
+.social-icons {
+  border-left: 1px solid #ddd;
+  padding-left: 39px;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  display: inline-block;
+  padding-right: 23px;
+}
+
+.mainmenu li.active a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.service-head-text h4:after {
+  background-image: url(./assets/img/service-title-shape.png);
+  position: absolute;
+  content: "";
+  width: 370px;
+  height: 7px;
+  left: 50%;
+  top: 50%;
+  background-size: cover;
+  margin-top: 25px;
+  margin-left: -185px;
+}
+
+.service-head-text {
+  text-align: center;
+}
+
+.service-head-text h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0F81F8;
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.service-head-text p {
+  color: #89929E;
+  font-size: 13px;
+}
+
+.single-service img {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 18px;
+}
+
+.service-section {
+  margin-top: 50px;
+}
+
+.single-service p {
+  padding-left: 15px;
+  color: #8D95A1;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.trynow a {
+  background: #0F81F8;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 11px;
+  margin-top: 45px;
+}
+
+.video-right h4:after {
+  background-image: url(./assets/img/video-shape.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  content: "";
+  width: 320px;
+  height: 7px;
+  left: 50%;
+  top: 50%;
+  margin-left: -160px;
+  margin-top: 25px;
+}
+
+.video-area {
+  background: #1380F0;
+  padding: 100px;
+}
+
+.video-right {
+  color: #fff;
+  padding: 0 15px;
+  margin-top: 105px;
+}
+
+.video-right h4 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.white-btn {
+  background: #fff;
+  display: inline-block;
+  color: #569BF9;
+  padding: 7px 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+
+/*Multiple Box Shadow*/
+
+.first-video-box {
+  background: #fff;
+  width: 80%;
+  margin: 0 auto;
+  height: 400px;
+  box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.50), 20px 20px 0px 0px rgba(255, 255, 255, 0.5);
+  position: relative;
+  z-index: 2;
+}
+
+.first-video-box:after {
+  background-image: url(./assets/img/video-background.jpg);
+}
+
+p.video-play-btn {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  top: 45%;
+}
+
+p.video-play-btn i {
+  width: 50px;
+  height: 50px;
+  background: #0F81F8;
+  text-align: center;
+  line-height: 50px;
+  padding-left: 5px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.first-video-box:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-size: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.09;
+}
+
+.market-area {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px 0;
+  background: #FAFAFA;
+}
+
+.brand-logo {
+  flex: 1;
+}
+
+.brand-item img {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+}
+
+.brand-item {
+  text-align: center;
 }
