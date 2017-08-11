@@ -491,3 +491,250 @@ p.video-play-btn i {
   margin-top: 0px;
   opacity: 0;
 }
+
+.team-head-title {
+  position: relative;
+  z-index: 2;
+}
+
+.team-head-title h2 {
+  font-size: 32px;
+  color: #0F81F8;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.team-head-title h2:after {
+  position: absolute;
+  width: 183px;
+  height: 7px;
+  content: "";
+  top: 100%;
+  left: 50%;
+  background-image: url(./assets/img/team-shape.png);
+  margin-left: -91.5px;
+  margin-top: 10px;
+}
+
+.team-head-title p {
+  margin-bottom: 50px;
+  color: #59697E;
+  font-size: 12px;
+}
+
+.single-team-box img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.single-team-box h5 {
+  color: #08294C;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.team-social-link a {
+  display: inline-block;
+  padding: 15px 8px 15px 0;
+  font-size: 11px;
+}
+
+.team-social-link i {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #DCE5E9;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+  background: #DCE5E9;
+  border-radius: 25px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.team-social-link i:hover {
+  color: #000;
+}
+
+.teams-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.teams-title h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+.teams-title p {
+  font-size: 13px;
+}
+
+.single-team-box p {
+  font-size: 13px;
+}
+
+.contact-bg:after {
+  background-image: url(./assets/img/contact-us-bg.jpg);
+}
+
+.contact-bg {
+  position: relative;
+  z-index: 3;
+  color: #fff;
+}
+
+.contact-bg:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-position: center;
+  content: "";
+  background-size: cover;
+  z-index: -1;
+}
+
+.contact-bg:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+  background: #0F81F8;
+  opacity: 0.92;
+}
+
+.form-title h2:after {
+  background-image: url(./assets/img/contact-shape.png);
+}
+
+.contact-form input[type=text], .contact-form input[type=email], .contact-form textarea {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding-top: 40px;
+  text-transform: capitalize;
+}
+
+.contact-form textarea {
+  padding: 43px 0 0 0px;
+}
+
+.checkbox-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 0px 20px;
+}
+
+.checkbox-btn p {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.send-btn {
+  float: right;
+  display: inline-block;
+  background: #fff;
+  color: #0F81F8;
+  padding: 10px 60px;
+  margin-top: 22px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+a.send-btn {}
+
+a.send-btn:hover {
+  color: #0F81F8;
+}
+
+.form-title h2 {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 40px;
+}
+
+.form-title h2:after {
+  position: absolute;
+  width: 209px;
+  height: 7px;
+  top: 40px;
+  left: 50%;
+  margin-left: -104.5px;
+  content: "";
+}
+
+.contact-form input[type=text]::-webkit-input-placeholder, .contact-form input[type=email]::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+.contact-form input[type=text]::-moz-placeholder, .contact-form input[type=email]::-moz-placeholder, .contact-form textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+
+.contact-form input[type=text]:-ms-input-placeholder, .contact-form input[type=email]:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff;
+}
+
+.contact-form input[type=text]:-moz-placeholder, .contact-form input[type=email]:-moz-placeholder, .contact-form textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+.footer-area {
+  background: #08294C;
+  color: #fff;
+}
+
+.footer-logo img {
+  margin-bottom: 50px;
+}
+
+.list-one ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-one li {
+  padding-bottom: 15px;
+}
+
+.footer-social-links {
+  margin-top: 45px;
+}
+
+.footer-social-links a {
+  display: inline-block;
+  padding-right: 5px;
+  color: #000;
+  transition: 0.3s;
+}
+
+.footer-social-links i {
+  width: 30px;
+  height: 30px;
+  background: #48627B;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50px;
+}
+
+.footer-social-links a:hover {
+  color: #fff;
+}
