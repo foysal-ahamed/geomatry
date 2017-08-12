@@ -1,0 +1,68 @@
+@media only screen and (min-width: 992px) and (max-width: 1999px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .section-padding80 {
+    padding: 40px 0;
+  }
+  .mainmenu ul {
+    text-align: center;
+  }
+  .mainmenu li a {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .social-icons {
+    text-align: center;
+    border-left: none;
+  }
+  .header_area {
+    text-align: center;
+  }
+  .header_area h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .header_area h3:after {
+    left: 0px;
+    bottom: -15px;
+  }
+  .service-head-text h4:after {
+    width: 98%;
+    left: 0;
+    margin-left: 0;
+  }
+  .video-area {
+    padding: 30px 0;
+  }
+  .first-video-box {
+    width: 95%;
+    height: 250px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .video-right {
+    margin-top: 60px;
+  }
+  .video-right h4:after {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+  }
+  .single-team-box {
+    text-align: center;
+  }
+  .footer-logo img {
+    margin-bottom: 10px;
+  }
+  .footer-logo p {
+    margin-bottom: 25px;
+  }
+  .footer-social-links {
+    margin-top: 20px;
+  }
+}
