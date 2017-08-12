@@ -3,4 +3,5 @@ $(document).ready(function($) {
     $('.mainmenu li').removeClass('active');
     $(this).addClass('active');
   });
+  $(".js-modal-btn").modalVideo();
 });
