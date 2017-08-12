@@ -3,5 +3,4 @@ $(document).ready(function($) {
     $('.mainmenu li').removeClass('active');
     $(this).addClass('active');
   });
-  $('body').perfectScrollbar();
 });

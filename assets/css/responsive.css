@@ -53,6 +53,18 @@
     left: 0;
     margin-left: 0;
   }
+  .testimonial-title h4:after {
+    left: 0;
+    width: 100%;
+    margin-left: 0;
+    content: "";
+    background-size: cover;
+    background-position: center;
+  }
+  .testimonial-items li:before {
+    opacity: 0;
+    visibility: hidden;
+  }
   .single-team-box {
     text-align: center;
   }
